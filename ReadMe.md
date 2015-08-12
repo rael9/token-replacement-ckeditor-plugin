@@ -16,11 +16,11 @@ How To Use It
 #### Install It
 Put the `token` folder in the `ckeditor/plugins` folder.
 
-#### Enable it
+#### Enable It
 
 ##### Globally
 
-Add the plugin along with any other configuration items you would like to the config.js file in the ckeditor folder.
+Add the plugin along with any other configuration items you would like to the `config.js` file in the `ckeditor` folder.
 
 ```
 // Enable token plugin
@@ -76,6 +76,8 @@ CKEDITOR.replaceAll(function (textarea, config) {
 
 Configuration Options
 ---------------------
+
+None of these are required, per se, but the plugin will be pretty useless if you don't configure the list of available tokens. I may add a configuration to allow the user to type in arbitrary tokens like the original placeholder plugin, but that isn't something I needed in the initial version.
 
 #### availableTokens
 
