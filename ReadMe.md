@@ -1,5 +1,5 @@
-Token Injection CKEditor Plugin
-===============================
+Token Replacement CKEditor Plugin
+=================================
 
 Overview
 --------
