@@ -9,7 +9,7 @@ CKEDITOR.dialog.add( 'token', function( editor ) {
 	var lang = editor.lang.token;
 	var	generalLabel = editor.lang.common.generalTab;
 	var tokens = [["",""]];
-	if (typeof editor.config.availableTokens != "undefined") {
+	if (typeof editor.config.availableTokens !== "undefined") {
 		tokens = editor.config.availableTokens;
 	}
 
