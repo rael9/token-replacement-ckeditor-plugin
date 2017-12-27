@@ -26,10 +26,10 @@ function escapeRegExp(string){
 			var lang = editor.lang.token;
 			var tokenStart = '${';
             var tokenEnd = '}';
-            if (typeof editor.config.tokenStart != 'undefined') {
+            if (typeof editor.config.tokenStart !== 'undefined') {
                 tokenStart = editor.config.tokenStart;
             }
-            if (typeof editor.config.tokenEnd != 'undefined') {
+            if (typeof editor.config.tokenEnd !== 'undefined') {
                 tokenEnd = editor.config.tokenEnd;
             }
             var tokenStartNum = tokenStart.length;
@@ -73,10 +73,10 @@ function escapeRegExp(string){
 
             var tokenStart = '${';
             var tokenEnd = '}';
-            if (typeof editor.config.tokenStart != 'undefined') {
+            if (typeof editor.config.tokenStart !== 'undefined') {
                 tokenStart = editor.config.tokenStart;
             }
-            if (typeof editor.config.tokenEnd != 'undefined') {
+            if (typeof editor.config.tokenEnd !== 'undefined') {
                 tokenEnd = editor.config.tokenEnd;
             }
             var tokenStartRegex = escapeRegExp(tokenStart);
